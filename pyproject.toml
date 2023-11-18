@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "lib-dzne-analyze-seq-further"
-version = "0.1.2"
+version = "0.2.0"
 license = { file = "LICENSE" }
 authors = [{ name = "Johannes Horler", email = "johannes.horler@dzne.de" }]
 classifiers = [
@@ -16,6 +16,7 @@ classifiers = [
 keywords = ['BASE', 'brain', 'antibody']
 dependencies = [
     'lib-dzne-math>=0.2.3',
-    'lib-dzne-seq>=0.1.1',
+    'lib-dzne-seq>=0.2.2',
+    'lib-dzne-filedata>=0.5.0',
 ]
 requires-python = ">=3.11"
