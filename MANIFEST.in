@@ -1,0 +1,3 @@
+include src/*.toml
+include src/*.xlsx
+include src/*.png
