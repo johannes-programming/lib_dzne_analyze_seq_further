@@ -1,3 +1,4 @@
+import lib_dzne_filedata as _fd
 import lib_dzne_math.na as _na
 import lib_dzne_seq as _seq
 
@@ -8,7 +9,7 @@ def main(*, seq, sub_region_table, alignment_table):
         (alignment_table, 'from', 'to'),
     ]
     previous_end = 0
-    ans = dict()
+    ans = _fd.TOMLData.load("")
     regions = list()
     for y in range(1, 4):
         for x in ('fr', 'cdr'):
@@ -38,7 +39,7 @@ def main(*, seq, sub_region_table, alignment_table):
                 end=end,
             )
             break
-    return ans
+    return ans # in other version type is dict, but here it is of the type _fd.TOMLData
 
 
 

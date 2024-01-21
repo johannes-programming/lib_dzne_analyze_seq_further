@@ -9,7 +9,7 @@ description = """\
 This package was created to contain all parts of the aBASE-like sequence read analysis \
 that are self-contained and needed to be easily accessed. 
 Currently it only holds the regions-function. """
-version = "0.1.8"
+version = "0.2.5"
 readme = "README.rst"
 authors = [
     { name = "Johannes", email = "johannes-programming@posteo.org" },
